@@ -12,4 +12,5 @@ Daily small, runnable projects across modern web, backend, DevOps, and tooling.
 
 ## Project index
 
+- 2026-09-22 — [Markdown TOC Generator](2026-09-22-markdown-toc-generator/) — TypeScript/Node.js — CLI table of contents from Markdown headings.
 - 2026-09-21 — [Query State Codec](2026-09-21-query-state-codec/) — TypeScript — Deterministic URL query-state helpers for web UI.
