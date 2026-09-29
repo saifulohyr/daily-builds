@@ -12,6 +12,8 @@ Daily small, runnable projects across modern web, backend, DevOps, and tooling.
 
 ## Project index
 
+- 2026-09-29 — [Bash URL Cleaner](2026-09-29-bash-url-cleaner/) — Bash — CLI strips tracking parameters and URL fragments.
+
 - 2026-09-28 — [Python Retry](2026-09-28-py-retry/) — Python — Sync function retry logic.
 
 - 2026-09-27 — [Query Inspector](2026-09-27-query-inspector/) — TypeScript/Node.js — CLI query parser with duplicate-key grouping.
