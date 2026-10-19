@@ -12,6 +12,7 @@ Daily small, runnable projects across modern web, backend, DevOps, and tooling.
 
 ## Project index
 
+- 2026-10-19 — [WCAG Contrast Checker](2026-10-19-html-contrast-checker/) — HTML/JavaScript — Browser color-contrast calculator with WCAG 2.1 checks.
 - 2026-09-29 — [Bash URL Cleaner](2026-09-29-bash-url-cleaner/) — Bash — CLI strips tracking parameters and URL fragments.
 
 - 2026-09-28 — [Python Retry](2026-09-28-py-retry/) — Python — Sync function retry logic.

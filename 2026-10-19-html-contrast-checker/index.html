@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contrast Checker</title>
+  <style>body{font:16px system-ui,sans-serif;max-width:42rem;margin:3rem auto;padding:0 1rem;color:#172033}label{display:inline-grid;gap:.5rem;margin-right:1rem}input{width:5rem;height:2.5rem;border:0;background:none}#sample{padding:1.5rem;border-radius:.5rem;font-size:1.25rem}output{font-weight:700;font-size:1.5rem}#result{line-height:1.6}</style>
+</head>
+<body>
+  <main>
+    <h1>WCAG Contrast Checker</h1>
+    <p>Check text and background color contrast.</p>
+    <label>Text color <input id="foreground" type="color" value="#172033"></label>
+    <label>Background <input id="background" type="color" value="#ffffff"></label>
+    <p>Ratio: <output id="ratio"></output></p>
+    <p id="sample">Readable sample text</p>
+    <p id="result" aria-live="polite"></p>
+  </main>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
