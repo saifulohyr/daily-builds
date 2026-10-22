@@ -12,6 +12,8 @@ Daily small, runnable projects across modern web, backend, DevOps, and tooling.
 
 ## Project index
 
+- 2026-10-23 — [LRU Cache](2026-10-23-py-lru-cache/) — Python — O(1) LRU cache using OrderedDict, stdlib only.
+
 - 2026-10-22 — [Environment Validator](2026-10-22-env-validator/) — TypeScript — Typed schema validator for environment variables with secret masking.
 - 2026-10-19 — [WCAG Contrast Checker](2026-10-19-html-contrast-checker/) — HTML/JavaScript — Browser color-contrast calculator with WCAG 2.1 checks.
 - 2026-09-29 — [Bash URL Cleaner](2026-09-29-bash-url-cleaner/) — Bash — CLI strips tracking parameters and URL fragments.
