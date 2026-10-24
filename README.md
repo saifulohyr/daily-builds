@@ -12,6 +12,8 @@ Daily small, runnable projects across modern web, backend, DevOps, and tooling.
 
 ## Project index
 
+- 2026-10-25 — [Date Printer](2026-10-25-bash-date-printer/) — Bash — Prints current date in YYYY-MM-DD format.
+
 - 2026-10-24 — [Epoch Converter](2026-10-24-py-epoch-converter/) — Python — ISO-8601 to epoch timestamp converter, stdlib only.
 - 2026-10-23 — [LRU Cache](2026-10-23-py-lru-cache/) — Python — O(1) LRU cache using OrderedDict, stdlib only.
 
