@@ -12,7 +12,7 @@ Daily small, runnable projects across modern web, backend, DevOps, and tooling.
 
 ## Project index
 
-- 2026-10-26 — [Word Count](2026-10-26-py-word-count/) — Python — CLI word count tool with edge-case tests, stdlib only.
+- 2026-10-26 — [Word Count](2026-10-26-py-word-count/) — Python — CLI word count tool (lines, words, chars, bytes), stdlib only.
 - 2026-10-25 — [Date Printer](2026-10-25-bash-date-printer/) — Bash — Prints current date in YYYY-MM-DD format.
 
 - 2026-10-24 — [Epoch Converter](2026-10-24-py-epoch-converter/) — Python — ISO-8601 to epoch timestamp converter, stdlib only.
