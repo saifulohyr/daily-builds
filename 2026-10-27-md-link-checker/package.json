@@ -1,0 +1,14 @@
+{
+  "name": "md-link-checker",
+  "version": "0.1.0",
+  "description": "CLI tool to check for broken links in Markdown files",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "check": "tsx src/index.ts README.md"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
