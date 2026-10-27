@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "start": "tsx src/index.ts",
-    "check": "tsx src/index.ts README.md"
+    "check": "tsx src/index.ts README.md",
+    "test": "node --test test/index.test.ts"
   },
   "devDependencies": {
     "tsx": "^4.0.0",
