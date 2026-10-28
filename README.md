@@ -12,6 +12,7 @@ Daily small, runnable projects across modern web, backend, DevOps, and tooling.
 
 ## Project index
 
+- 2026-10-28 — [Token Bucket Rate Limiter](2026-10-28-py-token-bucket/) — Python — Thread-safe token bucket rate limiter with blocking acquisition and decorator support.
 - 2026-10-27 — [Markdown Link Checker](2026-10-27-md-link-checker/) — TypeScript — CLI tool scanning Markdown files for broken HTTP/HTTPS links.
 - 2026-10-26 — [Word Count](2026-10-26-py-word-count/) — Python — CLI word count tool (lines, words, chars, bytes), stdlib only.
 - 2026-10-25 — [Date Printer](2026-10-25-bash-date-printer/) — Bash — Prints current date in YYYY-MM-DD format.
