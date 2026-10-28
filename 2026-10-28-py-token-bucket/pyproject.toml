@@ -1,0 +1,7 @@
+[project]
+name = "py-token-bucket"
+version = "0.1.0"
+description = "Thread-safe token bucket rate limiter in Python"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
