@@ -32,6 +32,7 @@ class TokenBucket:
         self._lock = threading.Lock()
 
     def _refill(self, now: float) -> None:
+        # Refill tokens proportional to elapsed time since last sync
         elapsed = now - self.last_update
         if elapsed > 0:
             self.tokens = min(self.capacity, self.tokens + elapsed * self.fill_rate)
@@ -47,6 +48,7 @@ class TokenBucket:
         start_wait = time.monotonic()
         while True:
             with self._lock:
+                # Synchronize token count and consume under lock
                 now = time.monotonic()
                 self._refill(now)
                 if self.tokens >= tokens:
@@ -56,6 +58,7 @@ class TokenBucket:
                 if not blocking:
                     return False
 
+                # Calculate exact sleep duration needed to replenish missing tokens
                 needed = tokens - self.tokens
                 wait_time = needed / self.fill_rate
 
@@ -85,6 +88,7 @@ class TokenBucket:
         def decorator(func: F) -> F:
             @wraps(func)
             def wrapper(*args, **kwargs):
+                # Guard execution behind token acquisition
                 if not self.acquire(tokens=tokens, blocking=blocking):
                     raise RateLimitExceeded(f"Rate limit exceeded for {func.__name__}")
                 return func(*args, **kwargs)

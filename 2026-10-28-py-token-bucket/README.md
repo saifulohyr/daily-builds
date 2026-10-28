@@ -83,17 +83,17 @@ Self-check passed.
 ## Running Tests
 
 ```bash
-$ python3 -m unittest test_token_bucket.py -v
+$ python3 -m unittest -v test_token_bucket.py
+test_acquire_and_consume (test_token_bucket.TestTokenBucket.test_acquire_and_consume) ... ok
+test_acquire_invalid (test_token_bucket.TestTokenBucket.test_acquire_invalid) ... ok
 test_blocking_acquire (test_token_bucket.TestTokenBucket.test_blocking_acquire) ... ok
-test_blocking_timeout (test_token_bucket.TestTokenBucket.test_blocking_timeout) ... ok
-test_decorator_blocking (test_token_bucket.TestTokenBucket.test_decorator_blocking) ... ok
-test_decorator_non_blocking (test_token_bucket.TestTokenBucket.test_decorator_non_blocking) ... ok
-test_initial_capacity (test_token_bucket.TestTokenBucket.test_initial_capacity) ... ok
-test_invalid_inputs (test_token_bucket.TestTokenBucket.test_invalid_inputs) ... ok
-test_refill (test_token_bucket.TestTokenBucket.test_refill) ... ok
+test_decorator (test_token_bucket.TestTokenBucket.test_decorator) ... ok
+test_init_validation (test_token_bucket.TestTokenBucket.test_init_validation) ... ok
+test_refill_cap (test_token_bucket.TestTokenBucket.test_refill_cap) ... ok
+test_thread_safety (test_token_bucket.TestTokenBucket.test_thread_safety) ... ok
 
 ----------------------------------------------------------------------
-Ran 7 tests in 0.258s
+Ran 7 tests in 0.257s
 
 OK
 ```
