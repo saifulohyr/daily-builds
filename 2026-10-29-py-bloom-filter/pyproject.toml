@@ -1,0 +1,7 @@
+[project]
+name = "py-bloom-filter"
+version = "0.1.0"
+description = "Space-efficient probabilistic Bloom filter in pure Python"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
